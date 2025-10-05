@@ -1,0 +1,147 @@
+aiohappyeyeballs @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/aiohappyeyeballs-2.6.1-py3-none-any.whl#sha256=f349ba8f4b75cb25c99c5c2d84e997e485204d2902a9597802b0371f09331fb8
+aiohttp @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/aiohttp-3.12.15-cp313-cp313-macosx_11_0_arm64.whl#sha256=3eae49032c29d356b94eee45a3f39fdf4b0814b397638c2f718e96cfadf4c4e4
+aiosignal @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/aiosignal-1.4.0-py3-none-any.whl#sha256=053243f8b92b990551949e63930a839ff0cf0b0ebbe0597b0f3fb19e1a0fe82e
+altair==5.5.0
+annotated-types==0.7.0
+anyio==4.11.0
+appnope==0.1.4
+asgiref @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/asgiref-3.9.1-py3-none-any.whl#sha256=f3bba7092a48005b5f5bacd747d36ee4a5a61f4a269a6df590b43144355ebd2c
+asttokens==3.0.0
+attrs @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/attrs-25.3.0-py3-none-any.whl#sha256=427318ce031701fea540783410126f03899a97ffc6f61596ad581ac2e40e3bc3
+blinker==1.9.0
+cachetools==6.2.0
+catboost==1.2.8
+certifi @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/certifi-2025.8.3-py3-none-any.whl#sha256=f6c12493cfb1b06ba2ff328595af9350c65d6644968e5d3a2ffd78699af217a5
+charset-normalizer @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/charset_normalizer-3.4.3-cp313-cp313-macosx_10_13_universal2.whl#sha256=14c2a87c65b351109f6abfc424cab3927b3bdece6f706e4d12faaf3d52ee5efe
+click==8.3.0
+cloudpickle @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/cloudpickle-3.1.1-py3-none-any.whl#sha256=c8c5a44295039331ee9dad40ba100a9c7297b6f988e50e87ccdf3765a668350e
+colorama @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/colorama-0.4.6-py2.py3-none-any.whl#sha256=4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6
+comm==0.2.3
+contourpy @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/contourpy-1.3.3-cp313-cp313-macosx_11_0_arm64.whl#sha256=d002b6f00d73d69333dac9d0b8d5e84d9724ff9ef044fd63c5986e62b7c9e1b1
+cycler @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/cycler-0.12.1-py3-none-any.whl#sha256=85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30
+datasets @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/datasets-4.1.1-py3-none-any.whl#sha256=62e4f6899a36be9ec74a7e759a6951253cc85b3fcfa0a759b0efa8353b149dac
+debugpy==1.8.17
+decorator==5.2.1
+dill @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/dill-0.4.0-py3-none-any.whl#sha256=44f54bf6412c2c8464c14e8243eb163690a9800dbe2c367330883b19c7561049
+distro==1.9.0
+Django @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/django-5.2.6-py3-none-any.whl#sha256=60549579b1174a304b77e24a93d8d9fafe6b6c03ac16311f3e25918ea5a20058
+djangorestframework @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/djangorestframework-3.16.1-py3-none-any.whl#sha256=33a59f47fb9c85ede792cbf88bde71893bcda0667bc573f784649521f1102cec
+executing==2.2.1
+filelock @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/filelock-3.19.1-py3-none-any.whl#sha256=d38e30481def20772f5baf097c122c3babc4fcdb7e14e57049eb9d88c6dc017d
+fonttools @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/fonttools-4.60.0-cp313-cp313-macosx_10_13_universal2.whl#sha256=97100ba820936cdb5148b634e0884f0088699c7e2f1302ae7bba3747c7a19fb3
+frozenlist @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/frozenlist-1.7.0-cp313-cp313-macosx_11_0_arm64.whl#sha256=cbb65198a9132ebc334f237d7b0df163e4de83fb4f2bdfe46c1e654bdb0c5d43
+fsspec @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/fsspec-2025.9.0-py3-none-any.whl#sha256=530dc2a2af60a414a832059574df4a6e10cce927f6f4a78209390fe38955cfb7
+gitdb==4.0.12
+GitPython==3.1.45
+google-ai-generativelanguage==0.4.0
+google-api-core==2.25.1
+google-api-python-client==2.183.0
+google-auth==2.41.0
+google-auth-httplib2==0.2.0
+google-genai==1.39.1
+google-generativeai==0.4.0
+googleapis-common-protos==1.70.0
+grad-cam @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/grad_cam-1.0.0-py3-none-any.whl#sha256=bd84b6d2f6e136a88e692533332c8c6bda6a1b2389443f9463beb732e61fc2b5
+graphviz==0.21
+grpcio==1.75.1
+grpcio-status==1.62.3
+h11==0.16.0
+hf-xet @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/hf_xet-1.1.10-cp37-abi3-macosx_11_0_arm64.whl#sha256=71081925383b66b24eedff3013f8e6bbd41215c3338be4b94ba75fd75b21513b
+httpcore==1.0.9
+httplib2==0.31.0
+httpx==0.28.1
+huggingface-hub @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/huggingface_hub-0.35.1-py3-none-any.whl#sha256=2f0e2709c711e3040e31d3e0418341f7092910f1462dd00350c4e97af47280a8
+idna @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/idna-3.10-py3-none-any.whl#sha256=946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3
+ipykernel==6.30.1
+ipython==9.6.0
+ipython_pygments_lexers==1.1.1
+jedi==0.19.2
+Jinja2 @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/jinja2-3.1.6-py3-none-any.whl#sha256=85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67
+jiter==0.11.0
+joblib @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/joblib-1.5.2-py3-none-any.whl#sha256=4e1f0bdbb987e6d843c70cf43714cb276623def372df3c22fe5266b2670bc241
+jsonschema==4.25.1
+jsonschema-specifications==2025.9.1
+jupyter_client==8.6.3
+jupyter_core==5.8.1
+kiwisolver @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/kiwisolver-1.4.9-cp313-cp313-macosx_11_0_arm64.whl#sha256=1a12cf6398e8a0a001a059747a1cbf24705e18fe413bc22de7b3d15c67cffe3f
+llvmlite @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/llvmlite-0.45.0-cp313-cp313-macosx_12_0_arm64.whl#sha256=4ffa899f7584ef48f1037308d92cb19460a0afb834aa1fe9db9d3e52d0e81a79
+MarkupSafe @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/MarkupSafe-3.0.2-cp313-cp313-macosx_11_0_arm64.whl#sha256=f8b3d067f2e40fe93e1ccdd6b2e1d16c43140e76f02fb1319a05cf2b79d99430
+matplotlib @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/matplotlib-3.10.6-cp313-cp313-macosx_11_0_arm64.whl#sha256=59c8ac8382fefb9cb71308dde16a7c487432f5255d8f1fd32473523abecfecdf
+matplotlib-inline==0.1.7
+mpmath @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/mpmath-1.3.0-py3-none-any.whl#sha256=a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c
+multidict @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/multidict-6.6.4-cp313-cp313-macosx_11_0_arm64.whl#sha256=5df8afd26f162da59e218ac0eefaa01b01b2e6cd606cffa46608f699539246da
+multiprocess @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/multiprocess-0.70.16-py312-none-any.whl#sha256=fc0544c531920dde3b00c29863377f87e1632601092ea2daca74e4beb40faa2e
+narwhals @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/narwhals-2.5.0-py3-none-any.whl#sha256=7e213f9ca7db3f8bf6f7eff35eaee6a1cf80902997e1b78d49b7755775d8f423
+nest-asyncio==1.6.0
+networkx @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/networkx-3.5-py3-none-any.whl#sha256=0030d386a9a06dee3565298b4a734b68589749a544acbb6c412dc9e2489ec6ec
+numba @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/numba-0.62.0-cp313-cp313-macosx_12_0_arm64.whl#sha256=a972689dad64a7047f555d93ce829fe05ca2519ad0cf7af0071a64145c571039
+numpy @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/numpy-2.3.3-cp313-cp313-macosx_11_0_arm64.whl#sha256=d00de139a3324e26ed5b95870ce63be7ec7352171bc69a4cf1f157a48e3eb6b7
+ollama==0.6.0
+openai==1.109.1
+opencv-python @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/opencv_python-4.10.0.84-cp37-abi3-macosx_11_0_arm64.whl#sha256=fc182f8f4cda51b45f01c64e4cbedfc2f00aff799debebc305d8d0210c43f251
+packaging @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/packaging-25.0-py3-none-any.whl#sha256=29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484
+pandas @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/pandas-2.3.2-cp313-cp313-macosx_11_0_arm64.whl#sha256=c6f048aa0fd080d6a06cc7e7537c09b53be6642d330ac6f54a600c3ace857ee9
+parso==0.8.5
+pexpect==4.9.0
+pillow==10.4.0
+platformdirs==4.4.0
+plotly @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/plotly-6.3.0-py3-none-any.whl#sha256=7ad806edce9d3cdd882eaebaf97c0c9e252043ed1ed3d382c3e3520ec07806d4
+prompt_toolkit==3.0.52
+propcache @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/propcache-0.3.2-cp313-cp313-macosx_11_0_arm64.whl#sha256=7f08f1cc28bd2eade7a8a3d2954ccc673bb02062e3e7da09bc75d843386b342f
+proto-plus==1.26.1
+protobuf==4.25.8
+psutil==7.1.0
+ptyprocess==0.7.0
+pure_eval==0.2.3
+pyarrow @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/pyarrow-21.0.0-cp313-cp313-macosx_12_0_arm64.whl#sha256=e99310a4ebd4479bcd1964dff9e14af33746300cb014aa4a3781738ac63baf4a
+pyasn1==0.6.1
+pyasn1_modules==0.4.2
+pydantic==2.11.9
+pydantic_core==2.33.2
+pydeck==0.9.1
+Pygments==2.19.2
+pyparsing @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/pyparsing-3.2.5-py3-none-any.whl#sha256=e38a4f02064cf41fe6593d328d0512495ad1f3d8a91c4f73fc401b3079a59a5e
+PyPDF2==3.0.1
+python-dateutil @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/python_dateutil-2.9.0.post0-py2.py3-none-any.whl#sha256=a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427
+pytz @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/pytz-2025.2-py2.py3-none-any.whl#sha256=5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00
+PyYAML @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/pyyaml-6.0.3-cp313-cp313-macosx_11_0_arm64.whl#sha256=2283a07e2c21a2aa78d9c4442724ec1eb15f5e42a723b99cb3d822d48f5f7ad1
+pyzmq==27.1.0
+referencing==0.36.2
+regex @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/regex-2025.9.18-cp313-cp313-macosx_11_0_arm64.whl#sha256=1a351aff9e07a2dabb5022ead6380cff17a4f10e4feb15f9100ee56c4d6d06af
+requests @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/requests-2.32.5-py3-none-any.whl#sha256=2462f94637a34fd532264295e186976db0f5d453d1cdd31473c85a6a161affb6
+rpds-py==0.27.1
+rsa==4.9.1
+safetensors @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/safetensors-0.6.2-cp38-abi3-macosx_11_0_arm64.whl#sha256=d6675cf4b39c98dbd7d940598028f3742e0375a6b4d4277e76beb0c35f4b843b
+scikit-learn @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/scikit_learn-1.7.2-cp313-cp313-macosx_12_0_arm64.whl#sha256=abebbd61ad9e1deed54cca45caea8ad5f79e1b93173dece40bb8e0c658dbe6fe
+scipy @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/scipy-1.16.2-cp313-cp313-macosx_12_0_arm64.whl#sha256=5c39026d12edc826a1ef2ad35ad1e6d7f087f934bb868fc43fa3049c8b8508f9
+seaborn @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/seaborn-0.13.2-py3-none-any.whl#sha256=636f8336facf092165e27924f223d3c62ca560b1f2bb5dff7ab7fad265361987
+setuptools @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/setuptools-80.9.0-py3-none-any.whl#sha256=062d34222ad13e0cc312a4c02d73f059e86a4acbfbdea8f8f76b28c99f306922
+shap @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/shap-0.48.0-cp313-cp313-macosx_11_0_arm64.whl#sha256=cf3db3060ead2972d1a089736d8d72e5cd2bf3b8676f5740735ab1f8746eebd7
+six @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/six-1.17.0-py2.py3-none-any.whl#sha256=4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274
+slicer @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/slicer-0.0.8-py3-none-any.whl#sha256=6c206258543aecd010d497dc2eca9d2805860a0b3758673903456b7df7934dc3
+smmap==5.0.2
+sniffio==1.3.1
+sqlparse @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/sqlparse-0.5.3-py3-none-any.whl#sha256=cf2196ed3418f3ba5de6af7e82c694a9fbdbfecccdfc72e281548517081f16ca
+stack-data==0.6.3
+streamlit==1.50.0
+streamlit-option-menu==0.3.12
+sympy @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/sympy-1.14.0-py3-none-any.whl#sha256=e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5
+tenacity==9.1.2
+threadpoolctl @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/threadpoolctl-3.6.0-py3-none-any.whl#sha256=43a0b8fd5a2928500110039e43a5eed8480b918967083ea48dc3ab9f13c4a7fb
+tokenizers @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/tokenizers-0.22.1-cp39-abi3-macosx_11_0_arm64.whl#sha256=8d4e484f7b0827021ac5f9f71d4794aaef62b979ab7608593da22b1d2e3c4edc
+toml==0.10.2
+torch @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/torch-2.8.0-cp313-none-macosx_11_0_arm64.whl#sha256=7b677e17f5a3e69fdef7eb3b9da72622f8d322692930297e4ccb52fefc6c8211
+torchvision @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/torchvision-0.23.0-cp313-cp313-macosx_11_0_arm64.whl#sha256=1c37e325e09a184b730c3ef51424f383ec5745378dc0eca244520aca29722600
+tornado==6.5.2
+tqdm @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/tqdm-4.67.1-py3-none-any.whl#sha256=26445eca388f82e72884e0d580d5464cd801a3ea01e63e5601bdff9ba6a48de2
+traitlets==5.14.3
+transformers @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/transformers-4.56.2-py3-none-any.whl#sha256=79c03d0e85b26cb573c109ff9eafa96f3c8d4febfd8a0774e8bba32702dd6dde
+typing-inspection==0.4.1
+typing_extensions @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/typing_extensions-4.15.0-py3-none-any.whl#sha256=f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548
+tzdata @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/tzdata-2025.2-py2.py3-none-any.whl#sha256=1a403fada01ff9221ca8044d701868fa132215d84beb92242d9acd2147f667a8
+uritemplate==4.2.0
+urllib3 @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/urllib3-2.5.0-py3-none-any.whl#sha256=e6b01673c0fa6a13e374b50871808eb3bf7046c4b125b216f6bf1cc604cff0dc
+wcwidth==0.2.14
+websockets==15.0.1
+xxhash @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/xxhash-3.5.0-cp313-cp313-macosx_11_0_arm64.whl#sha256=97a662338797c660178e682f3bc180277b9569a59abfb5925e8620fba00b9fc5
+yarl @ file:///Users/justinnso-yineatanga/Downloads/offline_wheels/yarl-1.20.1-cp313-cp313-macosx_11_0_arm64.whl#sha256=f60e4ad5db23f0b96e49c018596707c3ae89f5d0bd97f0ad3684bcbad899f1e7

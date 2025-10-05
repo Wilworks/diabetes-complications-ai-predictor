@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Diabetes Prediction | University of Ghana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+            letter-spacing: 0.01em;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #F5F9FF 0%, #E8F4FF 100%);
+            min-height: 100vh;
+        }
+        
+        .glass-card {
+            background: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+            transition: all 0.3s ease;
+        }
+        
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(31, 38, 135, 0.25);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #007AFF 0%, #0A84FF 50%, #82CFFD 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #007AFF 0%, #0A84FF 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(0, 122, 255, 0.5);
+        }
+        
+        .hero-section {
+            background-image: 
+                linear-gradient(135deg, rgba(255, 255, 255, 0.85) 0%, rgba(130, 207, 253, 0.6) 100%),
+                url('/static/images/lab-hero.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            backdrop-filter: blur(10px);
+            min-height: 90vh;
+            position: relative;
+        }
+        
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.7) 0%, rgba(10, 132, 255, 0.3) 100%);
+            backdrop-filter: blur(3px);
+        }
+        
+        .hero-section > * {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .fade-in {
+            animation: fadeInUp 1s ease-out;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .nav-glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+        
+        .nav-glass.scrolled {
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .profile-circle {
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(135deg, #007AFF 0%, #82CFFD 100%);
+            border: 4px solid rgba(255, 255, 255, 0.8);
+        }
+        
+        .section-divider {
+            height: 2px;
+            background: linear-gradient(90deg, transparent 0%, #82CFFD 50%, transparent 100%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-glass fixed top-0 w-full z-50 px-6 py-4" id="navbar">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-blue-300"></div>
+                <span class="font-bold text-xl gradient-text">DiabetesAI</span>
+            </div>
+            <a href="{% url 'login' %}" class="btn-primary text-white px-6 py-2 rounded-full font-semibold">
+                Login
+            </a>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero -->
+    <section class="hero-section flex items-center justify-center px-6 pt-24">
+        <div class="glass-card max-w-5xl mx-auto p-12 rounded-3xl text-center fade-in">
+            <h1 class="text-5xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight">
+                Incorporating <span class="gradient-text">Artificial Intelligence</span> in the Prediction, Diagnosis, and Monitoring of Microvascular Complications in Diabetes Mellitus
+            </h1>
+            <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                A collaborative research project by Biomedical Engineering and Medical Laboratory Science students at the University of Ghana.
+            </p>
+            <a href="{% url 'login' %}" class="btn-primary inline-block text-white px-10 py-4 rounded-full font-semibold text-lg">
+                Access AI Tool →
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 2: Background Summary -->
+    <section class="py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12 gradient-text">The Problem We're Solving</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="glass-card p-8 rounded-2xl">
+                    <div class="w-14 h-14 rounded-full bg-gradient-to-br from-blue-500 to-blue-300 flex items-center justify-center mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Rising Global Crisis</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Diabetes mellitus has become a global concern with rising prevalence. According to WHO, the mortality due to diabetes has been increasing steadily — in 2022, <strong>14% of adults aged 18+</strong> lived with diabetes, up from 7% in 1990. More than half (59%) of adults aged 30 and above living with diabetes were not taking medication.
+                    </p>
+                </div>
+                
+                <div class="glass-card p-8 rounded-2xl">
+                    <div class="w-14 h-14 rounded-full bg-gradient-to-br from-blue-500 to-blue-300 flex items-center justify-center mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Our AI Solution</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        The condition, caused by low or no insulin production from the pancreatic islets of Langerhans, is typically diagnosed using biomarkers such as Fasting Blood Glucose and HbA1c. However, these methods are often time-consuming and inefficient in detecting microvascular complications early — particularly in low-resource settings. Our research explores how <strong>AI can augment diagnostic accuracy</strong>, improve monitoring efficiency, and enable early prediction of complications like nephropathy, neuropathy, and retinopathy.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Meet the Researchers -->
+    <section class="py-20 px-6 bg-gradient-to-b from-transparent to-blue-50/30">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-4 gradient-text">Meet the Researchers</h2>
+            <p class="text-center text-gray-600 mb-12">Passionate students driving innovation in healthcare technology</p>
+            
+            <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <!-- Wilfred -->
+                <div class="glass-card p-8 rounded-2xl text-center">
+                    <div class="profile-circle mx-auto mb-6 rounded-full flex items-center justify-center overflow-hidden">
+                        <span class="text-6xl font-bold text-white">WA</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Asumboya Wilfred Ayine</h3>
+                    <p class="text-blue-600 font-semibold mb-1">Biomedical Engineering Student</p>
+                    <p class="text-sm text-gray-600 mb-4">Vice President, Ghana Society of Biomedical Engineers (UG)</p>
+                    <div class="space-y-2 text-gray-600">
+                        <p class="flex items-center justify-center space-x-2">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                            <span>055 930 3975</span>
+                        </p>
+                        <p class="flex items-center justify-center space-x-2">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            <span>asumboyaayine@ug.edu.gh</span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Emmanuel -->
+                <div class="glass-card p-8 rounded-2xl text-center">
+                    <div class="profile-circle mx-auto mb-6 rounded-full flex items-center justify-center overflow-hidden">
+                        <span class="text-6xl font-bold text-white">EA</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Osei Emmanuel Amponsah</h3>
+                    <p class="text-blue-600 font-semibold mb-1">Medical Laboratory Science Student</p>
+                    <p class="text-sm text-gray-600 mb-4">University of Ghana</p>
+                    <div class="space-y-2 text-gray-600 mt-8">
+                        <p class="flex items-center justify-center space-x-2">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                            <span>054 913 0490</span>
+                        </p>
+                        <p class="flex items-center justify-center space-x-2">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            <span>oseiemmanuel@ug.edu.gh</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Supervisor -->
+    <section class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="glass-card p-10 rounded-2xl text-center">
+                <div class="w-20 h-20 rounded-full bg-gradient-to-br from-blue-600 to-blue-400 mx-auto mb-6 flex items-center justify-center">
+                    <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                    </svg>
+                </div>
+                <h3 class="text-3xl font-bold text-gray-800 mb-2">Supervised by</h3>
+                <p class="text-2xl font-bold gradient-text mb-3">Dr. Kennedy Bentum</p>
+                <p class="text-gray-600 text-lg">Department of Medical Laboratory Science</p>
+                <p class="text-gray-600 text-lg">University of Ghana</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Access Portal -->
+    <section class="py-20 px-6 bg-gradient-to-b from-blue-50/30 to-transparent">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6 gradient-text">Explore the Diagnostic Dashboard</h2>
+            <p class="text-xl text-gray-600 mb-10 max-w-3xl mx-auto">
+                Log in to access the AI-based prediction models for Diabetic Microvascular Complications. Our advanced machine learning algorithms analyze patient data to predict risks for nephropathy, neuropathy, and retinopathy.
+            </p>
+            <a href="{% url 'login' %}" class="btn-primary inline-block text-white px-12 py-5 rounded-full font-semibold text-xl">
+                Login to Tool →
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 6: Footer -->
+    <footer class="py-8 px-6">
+        <div class="section-divider mb-8"></div>
+        <div class="max-w-7xl mx-auto text-center text-gray-600">
+            <p class="text-sm">
+                © 2025 University of Ghana | Research Collaboration by Wilfred & Emmanuel | Supervisor: Dr. Kennedy Bentum
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
