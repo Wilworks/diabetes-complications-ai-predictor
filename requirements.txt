@@ -20,9 +20,3 @@ joblib==1.4.2
 requests==2.32.3
 httpx==0.27.0
 
-# PDF handling
-PyPDF2==3.0.1
-
-# Utilities
-tqdm==4.66.5
-pillow==10.4.0
