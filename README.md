@@ -69,7 +69,7 @@ The system analyzes 15 clinical parameters:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/diabetes-ai-predictor.git
+git clone https://github.com/Wilworks/diabetes-ai-predictor.git
 cd diabetes-ai-predictor
 ```
 
